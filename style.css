@@ -135,3 +135,23 @@ footer {
   color:var(--muted);
   margin-top:20px;
 }
+
+@media (min-width: 768px) {
+  .app {
+    max-width: 720px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    max-width: 900px;
+  }
+}
