@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ClearTabs – Simple Offline IOU Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>ClearTabs</h1>
+    <div class="subtitle">Clear borrowing. Fewer conflicts.</div>
+
+    <div class="card">
+      <input id="name" placeholder="Friend name">
+      <select id="type">
+        <option value="lent">I lent money</option>
+        <option value="borrowed">I borrowed money</option>
+      </select>
+      <input id="amount" type="number" placeholder="Amount ₹">
+      <button id="addBtn">Add entry</button>
+    </div>
+
+    <div class="card">
+      <input id="search" placeholder="Search person">
+    </div>
+
+    <div id="list"></div>
+    <div id="detail" class="card hidden"></div>
+
+    <footer>
+      Private • Offline • Local only<br>
+      <span class="creator">Created by Habeeb</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
