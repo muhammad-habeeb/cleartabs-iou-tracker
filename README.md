@@ -22,6 +22,7 @@ This project focuses on simplicity, responsiveness, and practical daily use.
 👉 https://muhammad-habeeb.github.io/cleartabs-iou-tracker/
 
 ## Screenshots
+<img width="1600" height="900" alt="Screenshot 2026-01-11 064412" src="https://github.com/user-attachments/assets/fae325dc-6c86-4600-9ad6-2fa133aec9a7" />
 
 
 ## Author
